@@ -1,0 +1,247 @@
+# Project information
+site_name: 'KSPdia'
+site_description: 'Kontakt Programming Guide'
+site_author: 'Fracture Sounds'
+site_url: 'https://jackwilliams-fracturesounds.github.io/test/'
+edit_uri: https://github.com/JackWilliams-FractureSounds/test
+
+# Repository
+repo_name: 'test'
+repo_url: 'https://github.com/JackWilliams-FractureSounds/test'
+
+# Copyright
+copyright: 'Copyright &copy; 2023 Fracture Sounds'
+
+# Plugins
+plugins:
+  - search
+  - alternate-link
+
+# Extensions
+markdown_extensions:
+  - mdx_truly_sane_lists
+  - pymdownx.highlight:
+      use_pygments: true
+  - pymdownx.superfences
+
+# Configuration
+theme:
+  name: 'material'
+  language: 'en'
+  logo: 'images/logo.png'
+  favicon: 'images/logo.png'
+  features:
+    - navigation.top
+    - content.action.edit
+    - content.code.copy
+    - search.highlight
+    - search.suggest
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/lightbulb
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      accent: red
+      primary: red
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to light mode
+
+# Customisation
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/RetroPie
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/retropieproject
+
+extra_css:
+  - 'stylesheets/extra.css'
+
+# Google Analytics
+google_analytics:
+  - 'UA-76418872-1'
+  - 'auto'
+
+nav:
+- Home: index.md
+- First Installation: First-Installation.md
+- Getting Started:
+    - Controller Configuration: Controller-Configuration.md
+    - Transferring Roms: Transferring-Roms.md
+    - Runcommand: Runcommand.md
+    - Updating RetroPie: Updating-RetroPie.md
+    - SSH: SSH.md
+    - WiFi: Wifi.md
+- Arcade:
+    - Arcade Quick Start: Arcade.md
+    - MAME: MAME.md
+    - lr-mame2003: lr-mame2003.md
+    - FinalBurn Neo: FinalBurn-Neo.md
+    - lr-fbneo: lr-fbneo.md
+    - Neo Geo: Neo-Geo.md
+    - Validating, Rebuilding, and Filtering Arcade ROMs: Validating,-Rebuilding,-and-Filtering-ROM-Collections.md
+- Emulators:
+    - 3do: 3do.md
+    - Amiga: Amiga.md
+    - Amstrad CPC: Amstrad-CPC.md
+    - Apple II: Apple-II.md
+    - Atari 2600: Atari-2600.md
+    - Atari 7800: Atari-7800.md
+    - Atari 800 and 5200: Atari-800-and-5200.md
+    - Atari Jaguar: Atari-Jaguar.md
+    - Atari Lynx: Atari-Lynx.md
+    - Atari ST-STE-TT-Falcon: Atari-ST-STE-TT-Falcon.md
+    - Coco: Coco.md
+    - Colecovision: Colecovision.md
+    - Commodore 64/VIC-20/PET: Commodore-64-VIC-20-PET.md
+    - Daphne: Daphne.md
+    - Dragon: Dragon.md
+    - Dreamcast: Dreamcast.md
+    - Famicom Disk System: Famicom-Disk-System.md
+    - Game Boy Advance: Game-Boy-Advance.md
+    - Game Boy Color: Game-Boy-Color.md
+    - Game Boy: Game-Boy.md
+    - GameCube: GameCube.md
+    - Game Gear: Game-Gear.md
+    - Game & Watch: Game-&-Watch.md
+    - GemRB: GemRB.md
+    - Genesis/Megadrive: Mega-Drive-Genesis.md
+    - Intellivision: Intellivision.md
+    - Love: Love.md
+    - Macintosh: Macintosh.md
+    - Master System: Master-System.md
+    - MESS: MESS.md
+    - MSX: MSX.md
+    - NEC PC8800: PC-8800.md
+    - NEC PC9800: PC-9800.md
+    - Neo Geo Pocket Color: Neo-Geo-Pocket-Color.md
+    - Neo Geo Pocket: Neo-Geo-Pocket.md
+    - Nintendo 64: Nintendo-64.md
+    - Nintendo DS: Nintendo-DS.md
+    - Nintendo Entertainment System: Nintendo-Entertainment-System.md
+    - OpenBOR: OpenBOR.md
+    - Oric: Oric.md
+    - PC Engine: PC-Engine.md
+    - PC: PC.md
+    - Playstation 1: Playstation-1.md
+    - Playstation 2: Playstation-2.md
+    - PSP: PSP.md
+    - Sam Coupe: Sam-Coupe.md
+    - Saturn: Saturn.md
+    - ScummVM: ScummVM.md
+    - Sega 32X: Sega-32X.md
+    - Sega CD: Sega-CD.md
+    - Sharp X1: Sharp-X1.md
+    - Sharp X68000: Sharp-X68000.md
+    - SG 1000: SG-1000.md
+    - Super Nintendo Entertainment System: Super-Nintendo-Entertainment-System.md
+    - Thomson MO/TO: Thomson-MOTO.md
+    - TI-99: TI-99.md
+    - TRS-80: TRS-80.md
+    - Vectrex: Vectrex.md
+    - VideoPac / Odyssey 2: VideoPac-Odyssey-2.md
+    - Virtual Boy: Virtual-Boy.md
+    - Wii: Wii.md
+    - Wonderswan Color: WonderSwan-Color.md
+    - WonderSwan: WonderSwan.md
+    - Zmachine: Zmachine.md
+    - ZX Spectrum: ZX-Spectrum.md
+- Ports:
+    - Adventure Game Studio: Adventure-Game-Studio.md
+    - Cannonball: Cannonball.md
+    - CaveStory: Cave-Story.md
+    - Commander Keen: Commander-Keen.md
+    - Descent: Descent.md
+    - Dinothawr: Dinothawr.md
+    - Doom: Doom.md
+    - Duke Nukem 3D: Duke-Nukem-3D.md
+    - KODI: KODI.md
+    - Lincity: Lincity.md
+    - Marathon: Marathon.md
+    - Micropolis: Micropolis.md
+    - Minecraft: Minecraft.md
+    - OpenTTD: OpenTTD.md
+    - OpenTyrian: OpenTyrian.md
+    - Quake: Quake.md
+    - ResidualVM: ResidualVM.md
+    - SDLPoP: SDLPoP.md
+    - Solarus: Solarus.md
+    - Stratagus: Stratagus.md
+    - Super Mario War: Super-Mario-War.md
+    - SuperTux: SuperTux.md
+    - The Ur Quan Masters: The-Ur-Quan-Masters.md
+    - Wolfenstein 3D: Wolfenstein-3D.md
+    - Xrick: Xrick.md
+- Controllers:
+    - Xbox 360: Xbox-360-Controller.md
+    - PS3: PS3-Controller.md
+    - 8Bitdo: 8Bitdo-Controller.md
+    - Bluetooth: Bluetooth-Controller.md
+    - Keyboard Controllers: Keyboard-Controllers.md
+    - Logitech: Logitech-Controller.md
+    - N64: N64-Controller.md
+    - PS4: PS4-Controller.md
+    - Ouya: Ouya-Controller.md
+    - Xiaomi: Xiaomi-Controller.md
+    - Xin-Mo: Xin-Mo-Controller.md
+    - Spinners, Trackballs, Lightguns, Mice: Spinners,-Trackballs,-Lightguns,-and-other-Mouse-Devices.md
+    - Mobile Gamepad: Mobile-Gamepad.md
+    - Virtual Gamepad: Virtual-Gamepad.md
+    - Wii U Pro: Wii-U-Pro-Controller.md
+    - Wiimotes: Wiimote-Controller.md
+    - Nintendo Switch Controllers: Nintendo-Switch-Controllers.md
+    - GPIO Modules: GPIO-Modules.md
+    - Mapping a Controller for Intellivision: Mapping-a-Controller-for-Intellivision.md
+    - Universal Controller Calibration & Mapping Using xboxdrv: Universal-Controller-Calibration-&-Mapping-Using-xboxdrv.md
+- Advanced Configuration:
+    - Configuration Editor: Configuration-Editor.md
+    - Input Lag: Input-Lag.md
+    - Memory Split: Memory-Split.md
+    - Overclocking: Overclocking.md
+    - Overscan: Overscan.md
+    - Optimization for Nintendo 64: Optimization-for-Nintendo-64.md
+    - Running ROMs from a Network Share: Running-ROMs-from-a-Network-Share.md
+    - Running ROMs from a USB drive: Running-ROMs-from-a-USB-drive.md
+    - Splashscreen: Splashscreen.md
+    - Take and Scrape Your Own Screenshots: Take-and-Scrape-Your-Own-Screenshots.md
+- RetroArch:
+    - RetroArch: RetroArch.md
+    - RetroArch Controller Configuration: RetroArch-Configuration.md
+    - RetroArch Core Options: RetroArch-Core-Options.md
+    - RetroAchievements: RetroAchievements.md
+    - Cheats: Cheats.md
+    - Netplay: Netplay.md
+    - Shaders and Smoothing: Shaders-and-Smoothing.md
+    - Smaller RetroArch Screen: Smaller-RetroArch-Screen.md
+- EmulationStation:
+    - EmulationStation: EmulationStation.md
+    - Scraper: Scraper.md
+    - Themes: Themes.md
+    - Creating Your Own EmulationStation Theme: Creating-Your-Own-EmulationStation-Theme.md
+    - Advanced EmulationStation Theming: EmulationStation-Advanced-Theming.md
+    - Add a New System in EmulationStation: Add-a-New-System-in-EmulationStation.md
+    - Child friendly EmulationStation: Child-friendly-EmulationStation.md
+    - EmulationStation Changelog: EmulationStation-Changelog.md
+- Platforms:
+    - Raspberry Pi: Manual-Installation.md
+    - Pi 4: Pi4.md
+    - Debian/Ubuntu: Debian.md
+    - Odroid C1/C2: Odroid-C1-C2.md
+    - Odroid XU4: Odroid-XU3-XU4.md
+    - OSMC: OSMC.md
+- Troubleshooting:
+    - FAQ: FAQ.md
+    - Sound Issues: Sound-Issues.md
+    - Speed Issues: Speed-Issues.md
+    - Video Issues: Video-Issues.md
+- Developers:
+    - Convert RetroPie SD Card Image to NOOBS Image: Convert-RetroPie-SD-Card-Image-to-NOOBS-Image.md
+    - Shell Style Guide: Shell-Style-Guide.md
+- About:
+    - Changelogs: Changelogs.md
+    - Supported Systems: Supported-Systems.md
+    - Contributing to Docs: Style-Guide.md
